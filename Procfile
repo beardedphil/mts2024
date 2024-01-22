@@ -1,1 +1,1 @@
-web: gunicorn mts2024pip .wsgi
+web: gunicorn mts2024.wsgi
