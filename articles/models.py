@@ -8,10 +8,9 @@ class Article(models.Model):
     article_link = models.URLField(unique=True)
     image_link = models.URLField()
     pub_date = models.DateField()
-    keywords = ArrayField(
-        models.CharField(max_length=50),
-        blank=True
-    )
+    # keywords = ArrayField(
+    #     models.CharField(max_length=50)
+    # )
 
     def __str__(self):
         return self.title
