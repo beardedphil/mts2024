@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'mts2024.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': '!Jan2024!',
-        'HOST': 'mts-db.c3soyk80qj6d.us-east-2.rds.amazonaws.com',
+        'NAME': 'd3lrb9jbdk2atk',
+        'USER': 'ppokhglbmublxs',
+        'PASSWORD': 'f8d049aedfee8d6acc778811769115c039a1a6f5fd378af096931865956af527',
+        'HOST': 'ec2-3-232-218-211.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
